@@ -1,0 +1,1 @@
+~/llvm/bin/opt --load-pass-plugin=build/PatternMatch/ShowPatterns.so --passes='show-patterns' PatternMatch/reduce_pat.ll -o /dev/null
