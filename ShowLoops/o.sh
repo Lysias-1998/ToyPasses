@@ -1,0 +1,1 @@
+~/llvm/bin/opt --load-pass-plugin=build/ShowLoops/ShowLoops.so ShowLoops/loop-is-here.ll --passes='print<loops>' -o /dev/null
